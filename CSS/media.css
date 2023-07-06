@@ -1,0 +1,376 @@
+/* X-Small Screens */
+@media screen and (max-width: 767px) {
+
+    /* Start General Media Style */
+    .container {
+        width: 450px;
+        padding: 0px;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    /* End General Media Style */
+
+    /* Start Home Section */
+    .nav-bar-links {
+        display: none;
+    }
+
+    .dash-icon {
+        display: block;
+    }
+
+    .home-content h4 {
+        font-size: 14px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .content-center {
+        left: 0;
+        bottom: 45%;
+        width: 100%;
+        position: absolute;
+    }
+
+    /* Animation In Home Section */
+    .home-content .developer {
+        width: 55px;
+    }
+
+    @keyframes width {
+        0% {
+            width: 55px;
+        }
+
+        4.16666% {
+            width: 0;
+        }
+
+        16.6666% {
+            width: 0;
+        }
+
+        20.8333% {
+            width: 55px;
+        }
+
+        33.3333% {
+            width: 55px;
+        }
+
+        37.4999% {
+            width: 0;
+        }
+
+        49.9999% {
+            width: 0;
+        }
+
+        54.1666% {
+            width: 55px;
+        }
+
+        66.6666% {
+            width: 55px;
+        }
+
+        70.8333% {
+            width: 0px;
+        }
+
+        83.3333% {
+            width: 0px;
+        }
+
+        87.5% {
+            width: 55px;
+        }
+
+        100% {
+            width: 55px;
+        }
+    }
+
+    /* End Home Section */
+
+    /* Start About Section */
+    .about-image {
+        width: 100%;
+    }
+
+    .image-border {
+        width: 100%;
+        border: none;
+    }
+
+    .image-container {
+        left: 0px;
+        top: 0px;
+    }
+
+    .about-content {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0px 0px;
+    }
+
+    .about-content h2 {
+        margin-bottom: 25px;
+    }
+
+    .about-content p {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    .about-content ul li {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .about-content a {
+        padding: 8px 10px;
+    }
+
+    /* End About Section */
+
+    /* Start Services Section */
+    .services .item {
+        width: 100%;
+    }
+
+    /* End Services Section */
+
+    /* Start Portfolio Section */
+    .portfolio .item {
+        width: 100%;
+    }
+
+    /* End Portfolio Section */
+
+    /* Start Statistics Section */
+    .statistics .item {
+        width: 100%;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+    }
+
+    .statistics .item h3 {
+        margin-bottom: 5px;
+    }
+
+    /* End Statistics Section */
+
+    /* Start Feedback Section */
+    .feed-back-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .feed-back-content h3 {
+        font-size: 26px;
+    }
+
+    .feed-back-image {
+        width: 28%;
+        margin: 12px 135px;
+    }
+
+    .feed-back-content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .feed-back-section::after {
+        left: -38%;
+        top: -28%;
+    }
+
+    /* End Feedback Section */
+
+    /* Start Blog Section */
+    .blog .item {
+        width: 100%;
+        ;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+    }
+
+    .blog-content h3 a {
+        font-size: 16px;
+    }
+
+    /* End Blog Section */
+
+    /* Start Contact Section */
+    .form-container {
+        width: 100%;
+    }
+
+    .contact .row-1 {
+        width: 100%;
+    }
+
+    /* End Contact Section */
+}
+
+/* Small Screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Start General Media Style */
+    .container {
+        width: 750px;
+    }
+
+    /* End General Media Style */
+
+    /* Start About Section */
+    .image-border {
+        width: 100%;
+        border: none;
+    }
+
+    .image-container {
+        left: 0px;
+        top: 0px;
+    }
+
+    .about-content {
+        padding: 0px 0px;
+    }
+
+    .about-content h2 {
+        margin-bottom: 15px;
+    }
+
+    .about-content p {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .about-content ul li {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+
+    .about-content ul .forty {
+        width: 40%;
+    }
+
+    .about-content ul .sixty {
+        width: 60%;
+    }
+
+    /* End About Section */
+
+    /* Start Services Section */
+    .services .item {
+        width: 50%;
+    }
+
+    /* End Services Section */
+
+    /* Start Portfolio Section */
+    .portfolio .item {
+        width: 50%;
+    }
+
+    /* End Portfolio Section */
+
+    /* Start Feedback Section */
+    .feed-back-section {
+        width: 100%;
+    }
+
+    /* End Feedback Section */
+
+    /* Start Blog Section */
+    .blog-content {
+        padding: 12px;
+    }
+
+    .blog-content h3 a {
+        font-size: 18px;
+    }
+
+    /* End Blog Section */
+
+    /* Start Contact Section */
+    .form-container {
+        width: 100%;
+    }
+
+    /* End Contact Section */
+}
+
+/* Meduim Screens */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* Start General Media Style */
+    .container {
+        width: 970px;
+    }
+
+    /* End General Media Style */
+
+    /* Start About Section */
+    .about-image {
+        width: 35%;
+    }
+
+    .image-border {
+        width: 100%;
+    }
+
+    .about-content {
+        width: 65%;
+        padding: 0px 50px;
+    }
+
+    .about-content h2 {
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-content ul li {
+        margin-bottom: 15px;
+    }
+
+    .about-content ul .forty {
+        width: 40%;
+    }
+
+    .about-content ul .sixty {
+        width: 60%;
+    }
+
+    /* Start About Section */
+
+    /* Start Feedback Section */
+    .feed-back-section {
+        width: 620px;
+    }
+
+    .feed-back-section::after {
+        left: -31%;
+        top: -31%;
+    }
+
+    /* End Feedback Section */
+}
+
+/* Large Screens (Default CSS Style) */
+@media screen and (min-width: 1200px) {
+    /* No Media Style Needed */
+}
